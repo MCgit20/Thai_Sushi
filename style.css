@@ -392,7 +392,7 @@ header {
     padding: 30px;
     border-radius: 6px;
     flex-direction: column;
-    width: 400px;
+    width: 350px;
 }
 
 #reservation form label {
@@ -450,7 +450,6 @@ footer .services_list {
 }
 
 .service p {
-    font-size: 13px;
     color: #333;
 }
 
