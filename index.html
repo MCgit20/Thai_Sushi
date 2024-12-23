@@ -7,6 +7,171 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <p><span>Thai</span><span>&</span>Sushi</p>
+        </div>
+        <ul class="menu">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about_us">À Propos</a></li>
+            <li><a href="#reservation">Réservation</a></li>
+        </ul>
+        <div class="toggle_menu"></div>
+    </header>
+
+    <section id="home">
+        <div class="left">
+            <h4>Notre Plat Thaïlandaise</h4>
+            <h1>Pad Thaï</h1>
+            <p>Le Pad Thaï est un plat traditionnel thaïlandais à base de pâte de riz sautées, de crevettes, de boeuf ou de poulet, d'œufs, de cacahuètes, de germes de soja et de coriandre .</p>
+            <button><a href="#">Commander maintenant</a></button>
+        </div>
+        <div class="right">
+            <img src="pad-thai.jpg">
+        </div>
+    </section>
+
+    <section id="menu">
+        <h4 class="mini_title">Notre Menu</h4>
+        <h2 class="title">Plats Populaires</h2>
+        <div class="dishes">
+            <div class="dish">
+                <img src="poulet_citronnelle.jpg">
+                <p>Poulet Grillé Citronnelle</p>
+                <h2>12.90€</h2>
+                <a href="#">Commander</a>
+            </div>
+            <div class="dish">
+                <img src="boeuf_basilic.jpg">
+                <p>Boeuf Sauté Basilic</p>
+                <h2>12.90€</h2>
+                <a href="#">Commander</a>
+            </div>
+            <div class="dish">
+                <img src="chirashi.jpg">
+                <p>Chirashi Saumon Avocat</p>
+                <h2>13.00€</h2>
+                <a href="#">Commander</a>
+            </div>
+            <div class="dish">
+                <img src="riz_loc_lac.jpg">
+                <p>Riz Loc-Lac(oeuf+1€)</p>
+                <h2>11.90€</h2>
+                <a href="#">Commander</a>
+            </div>
+            <div class="dish">
+                <img src="bibimbap.jpg">
+                <p>Bibimbap Au Boeuf</p>
+                <h2>12.90€</h2>
+                <a href="#">Commander</a>
+            </div>
+            <div class="dish">
+                <img src="phô.jpg">
+                <p>Soupe Phô</p>
+                <h2>10.90€</h2>
+                <a href="#">Commander</a>
+            </div>
+        </div>     
+    </section>
+
+    <section id="about_us">
+        <h4 class="mini_title">À propos de nous</h4>
+        <h2 class="title">Pourquoi nous choisir ?</h2>
+        <div class="about">
+            <div class="left">
+                <img src="img-about-us.png">
+            </div>
+            <div class="right">
+                <h3>Meilleure Nourriture Du Monde</h3>
+                <p>Notre restaurant est l'un des meilleurs restaurants de nourriture thaïlandaise et japonaise dans le monde. Nous avons des chefs expérimentés qui préparent des plats délicieux et savoureux.</p>
+                <p>Venez découvrir une expérience culinaire unique et savourez nos plats authentiques, faits à partir des ingrédients les plus frais et de qualité.</p>
+                <button><a href="#">En savoir plus</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="comment_section">
+        <h4 class="mini_title">Commentaires</h4>
+        <h2 class="title">Ce que les gens pensent de nous</h2>
+        <div class="comments">
+            <div class="comment">
+                <div>
+                    <img src="poulet_citronnelle.jpg">
+                    <h4>Maya Souibes</h4> 
+                </div>
+                <p>C’est tellement bon. Je vous le conseille très fort !!!</p>
+            </div>
+            <div class="comment">
+                <div>
+                    <img src="boeuf_basilic.jpg">
+                    <h4>Carole Maillard</h4>
+                </div>            
+                <p>Malgré un peu d’attente et une erreur dans la commande, nous nous sommes régalés ! Livreur très sympa ! Je garde l’adresse.</p>
+            </div>
+            <div class="comment">
+                <div>
+                    <img src="chirashi.jpg">
+                    <h4>Lleweilyn Feirys</h4>
+                </div>     
+                <p>Un repas simple mais très savoureux, une serveuse très accueillante et des livreurs sympathiques. Une bonne découverte !</p>
+            </div>
+    </section>
+
+    <section id="reservation">
+        <h4 class="mini_title">Réservation</h4>
+        <h2 class="title">Remplissez ce formulaire pour faire une réservation</h2>
+        <form action="">
+            <label> Votre Nom</label>
+            <input type="text">
+            <label> Votre Email</label>
+            <input type="email">
+            <label> Votre Téléphone</label>
+            <input type="text">
+            <label> Date de Réservation</label>
+            <input type="date">
+            <input type="submit" value="Faire une réservation">
+        </form>
+    </section>
+
+    <footer>
+        <div class="services_list">
+            <div class="service">
+                <img src="clock.png">
+                <h2>Horaires d'ouverture</h2>
+                <p>Ouvert du lundi au dimanche :</p>
+                <p>De 11h30 à 15h00 et de 18h30 à 22h30</p>
+                <p><strong>Fermé le dimanche matin</strong></p>
+            </div>
+
+            <div class="service">
+                <img src="pin.png">
+                <h2>Adresse</h2>
+                <p>90 Bd de la Boissière</p>
+                <p>93100 Montreuil</p>
+                <p>France</p>
+            </div>
+
+            <div class="service">
+                <img src="call.png">
+                <h2>Numéros de Téléphone</h2>
+                <p>+33 142876764</p>
+                <p>+33 652674482</p>
+                <p>Appelez-nous pour commander</p>
+            </div>
+            <hr>
+        </div>
+
+        <p class="footer_text">Réalisé par <span>Make CHEN</span> | Tous les droits sont réservés</p>
+    </footer>
+
+    <script>
+        var small_menu = document.querySelector('.toggle_menu');
+        var menu = document.querySelector('.menu');
+        small_menu.onclick = function(){
+            small_menu.classList.toggle('active');
+            menu.classList.toggle('responsive');
+        }
+    </script>
 </body>
 </html>
